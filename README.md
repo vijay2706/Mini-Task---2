@@ -13,7 +13,7 @@
   •	Camera.
 # Ideation:
   ## Understanding the robot’s mechanism:
- Identifying whether obstacle is present or not -> Sending to Arduino -> Signal to servo motors                              whether to rotate or not.
+ Identifying whether obstacle is present or not -> Sending to Arduino -> Signal to servo motors whether to rotate or not.
 The outer design of snake robot can be made using 3D printing etc..
 Which sensor can be used to detect obstacles, Ultrasonic or Infrared ??
 
@@ -31,5 +31,28 @@ https://www.ri.cmu.edu/pub_files/2014/6/d_rollinson_robotics_2014.pdf
  
 
 
+# 2. AUTOMATIC CHARGING CONTROLLER.
 
+# Problem Statement: 
+  Building the automatic charging circuit whuch turns off when the device is full and turns on when it requires to charge.
+# Components Used:
+  •	Arduino UNO,
+  •	LCD display,
+  •	Rotary encoder,
+  •	5V relay module,
+  •	Charging adapter.
+  # Ideation:
+  ## Understanding the circuit
+  After the necessary connections are made and the code uploaded to arduino,
+  Setting the time -> After the countdown reaches to zero, the relay is turned off.
+  
+  This circuit can be designed in two different ways.
+   1. Using arduino.
+   2. Using IoT.
+
+  | Platforms       | Feasibility      |Advantages                                                                     | Disadvantages
+  |-----------------|------------------|-------------------------------------------------------------------------------|----------------
+  |Arduino          |  Yes feasible    |   reduces the power wastage.                                                  |
+  |Internet of Things|  Easy to implement | Cost effective, least power consumption, the widest operating temperature. |
+  |
 
