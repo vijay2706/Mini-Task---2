@@ -20,7 +20,7 @@ Which sensor can be used to detect obstacles, Ultrasonic or Infrared ??
  
 |  Sensors               |  Feasibility          |  Advantages                                               | Disadvantages      |
 |------------------------|-----------------------|-----------------------------------------------------------|--------------------|
-|    Ultrasonic sensor   | Easy to implement     |  Large range,accurate in calculating distance of obstacle.|                    |                 
+|    Ultrasonic sensor   | Easy to implement     |  Large range,accurate in calculating distance of obstacle.| It has more difficulties in reading reflections from soft, curved, thin and small objects.|                 
 |    Infrared sensor     |  Yes, much better way |  Short range, better bandwidth.                           | Inability to use in sunlight due to interface  |
 
 
@@ -50,14 +50,14 @@ https://www.ri.cmu.edu/pub_files/2014/6/d_rollinson_robotics_2014.pdf
    1. Using arduino.
    2. Using IoT.
 
-  | Platforms       | Feasibility      |Advantages                                                                     | Disadvantages
-  |-----------------|------------------|-------------------------------------------------------------------------------|----------------
-  |Arduino          |  Yes feasible    |   reduces the power wastage.                                                  |
-  |Internet of Things|  Easy to implement | Cost effective, least power consumption, the widest operating temperature. |
-  |
+  | Platforms       | Feasibility      |Advantages                                                                     | Disadvantages|
+  |-----------------|------------------|-------------------------------------------------------------------------------|--------------|
+  |Arduino          |  Yes feasible    |   reduces the power wastage.                                                  | time consuming|
+  |Internet of Things|  Easy to implement | Cost effective, least power consumption, the widest operating temperature. |              |
+  
+  Using IoT, this project can be made very simple and more effective. So using IoT is the best way to implement this project.
 
 
-
-
+The total description of the project is given here..,
 
 https://acadpubl.eu/jsi/2017-115-6-7/articles/8/90.pdf
